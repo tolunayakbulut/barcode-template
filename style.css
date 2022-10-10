@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  padding: 16px 24px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1320px;
+}
+
+.top {
+  display: flex;
+  justify-content: end;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.header .head h2 {
+  display: flex;
+}
+
+.header .date {
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.content-top {
+  margin-top: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #777;
+}
+
+.content-top .main-information {
+  justify-content: space-between;
+  display: flex;
+}
+
+.content-top .main-information .sender-information ul li {
+  margin-top: 4px;
+}
+
+.content-top .sub-information {
+  display: flex;
+}
+
+.content-top .sub-information ul:nth-child(2) {
+  margin-left: 64px;
+}
+
+.content-top .sub-information ul li {
+  font-weight: bold;
+}
+
+.content-middle {
+  margin-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #777;
+}
+
+.content-middle .receiver-information .receiver-information-list {
+  display: flex;
+  margin-top: 8px;
+}
+
+.content-middle .receiver-information .receiver-information-list ul li {
+  margin-top: 4px;
+}
+
+.content-middle
+  .receiver-information
+  .receiver-information-list
+  ul:nth-child(2) {
+  margin-left: 32px;
+  font-weight: bold;
+}
+.content-middle .receiver-information .receiver-phone {
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.content-table {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.content-table table {
+  width: 100%;
+}
+
+.content-table td,
+.content-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.content-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.content-table tr:hover {
+  background-color: #ddd;
+}
+
+.content-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.content-table td:first-child {
+  width: 70%;
+}
+
+.content-table td:nth-child(2) {
+  width: 15%;
+}
+
+.content-table td:nth-child(3) {
+  width: 15%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  bottom: 0;
+  border: 1px solid #777;
+  padding: 16px;
+  width: 100%;
+}
+
+.footer .delivery-date {
+  margin-top: 8px;
+}
+
+.footer .delivery-date span {
+  font-size: 16px;
+}
+
+.footer .delivery-date span:first-child {
+  color: red;
+}
+
+.footer .footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 64px;
+}
+
+.footer .footer-right span:first-child {
+  font-size: 64px;
+}
+
+.footer .footer-right span:nth-child(2) {
+  font-size: 32px;
+}
